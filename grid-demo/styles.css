@@ -1,0 +1,18 @@
+/* Grid styles */
+
+/* Banner styles */
+.banner-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.logo {
+  background-color: rgb(66, 200, 245);
+  padding: 20px;
+
+}
+
+.navbar {
+  padding: 20px;
+}
