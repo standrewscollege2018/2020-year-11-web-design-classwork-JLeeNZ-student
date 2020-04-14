@@ -14,5 +14,8 @@
 }
 
 .navbar {
+  background-color: rgb(66, 200, 245);
   padding: 20px;
+  text-align: right;
+  
 }
