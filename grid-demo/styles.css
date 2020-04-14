@@ -4,18 +4,20 @@
 .banner-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: rgb(66, 200, 55);
+  padding: 20px;
 
 }
 
 .logo {
-  background-color: rgb(66, 200, 245);
-  padding: 20px;
+  /* background-color: rgb(66, 200, 245); */
+  /* padding: 20px; */
 
 }
 
 .navbar {
-  background-color: rgb(66, 200, 245);
-  padding: 20px;
+  /* background-color: rgb(66, 200, 245); */
+  /* padding: 20px; */
   text-align: right;
-  
+
 }
