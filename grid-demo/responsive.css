@@ -1,0 +1,17 @@
+/* styles for pages sections */
+.container {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+  grid-gap: 20px;
+}
+
+.side-col {
+  background-color: rgb(12,34,56);
+  color: white;
+}
+
+.main-content {
+  grid-column: span 2;
+  background-color: red;
+}
