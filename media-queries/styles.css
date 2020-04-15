@@ -1,0 +1,75 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+/* all divs should have the same margin and padding */
+div {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* media queries for resposive design
+breakpoints are 600px, 900px, portrait aspect, landscape aspect
+when a media query is active - box will have green border
+*/
+
+
+.bigger-than-600 {
+  border: 2px solid #ccc;
+}
+
+@media only screen and (min-width: 600px) {
+  .bigger-than-600 {
+    border-color: green;
+  }
+}
+
+.smaller-than-600 {
+  border: 2px solid #ccc;;
+}
+
+@media only screen and (max-width: 600px) {
+  .smaller-than-600 {
+    border-color: green;
+  }
+}
+
+.between-600-and-900 {
+  border: 2px solid #ccc;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .between-600-and-900 {
+    border-color: green;
+  }
+}
+
+.aspect-landscape {
+  border: 2px solid #ccc;
+}
+
+@media only screen and (orientation: landscape) {
+  .aspect-landscape {
+    border: 2px solid green
+  }
+
+}
+
+.aspect-portrait {
+  border: 2px solid #ccc;
+}
+
+@media only screen and (orientation: portrait) {
+  .aspect-portrait {
+    border: 2px solid green
+  }
+
+}
