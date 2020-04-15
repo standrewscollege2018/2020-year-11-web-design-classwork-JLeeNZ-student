@@ -33,5 +33,16 @@
 .card {
   border: 1px solid rgb(12, 34, 56);
   border-radius: 20px;
-  padding: 20px;
+  /* padding: 20px; */
+  overflow: hidden;
+}
+
+/* Dealing with images in cards */
+.card > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card > p {
+  margin-left: 10px;
 }
