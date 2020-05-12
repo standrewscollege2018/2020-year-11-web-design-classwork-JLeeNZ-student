@@ -1,0 +1,57 @@
+/* My stylesheet */
+
+/* Universal selector */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Set the background colour */
+body {
+  background-color: rgb(12, 34, 56);
+  color: rgb(255, 255, 255);
+}
+/* Set new font */
+@font-face {
+  font-family: PhotoShoot;
+  src: url(Photoshoot.ttf);
+}
+
+/* Set h1 format */
+h1 {
+  color: rgb(255, 255, 0);
+  font-family: Photoshoot, Calibri, sans-serif;
+  margin: 35px 0 20px 0;
+}
+
+/* format h2 */
+h2 {
+  font-family: Arial, sans-serif;
+  margin: 5px 0 10px 0;
+}
+
+/* paragraph formatting */
+p {
+  font-family: Arial, sans-serif;
+  margin-bottom: 18px;
+  line-height: 22px;
+}
+
+/* Formatting links */
+a {
+  color: rgb(132, 183, 245);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Format list */
+ul {
+  margin: 0 0 10px 30px;
+  font-family: Arial, sans-serif;
+  list-style-type: square;
+}
+li {
+  margin-bottom: 5px;
+}
