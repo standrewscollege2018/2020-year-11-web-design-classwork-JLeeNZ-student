@@ -5,19 +5,19 @@
   position: sticky;
   top: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   background-color: rgb(66, 200, 55);
-  padding: 20px;
+  padding: 10px;
 
 }
 
 .logo {
-  /* background-color: rgb(66, 200, 245); */
+  /* background-color: rgb(255,0,0); */
   /* padding: 20px; */
 
 }
 
-.navbar {
+.links {
   /* background-color: rgb(66, 200, 245); */
   /* padding: 20px; */
   text-align: right;
@@ -28,22 +28,23 @@
 .content-container {
   margin-top: 20px;
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-gap: 20px;
+
 }
 
 .card {
-  border: 1px solid rgb(12, 34, 56);
+  border: 3px dotted rgb(12, 34, 56);
   border-radius: 20px;
   overflow: hidden;
 }
 
 /* Dealing with images in cards */
-.card > img {
-  max-width: 100%;
-  height: auto;
-}
+ .card > img {
+   max-width: 100%;
+   height: auto;
+ } 
 
 .card > p {
   margin-left: 10px;
