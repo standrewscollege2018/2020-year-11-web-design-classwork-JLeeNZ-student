@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+   font-family: helvetica, arial, sans-serif;
+   /* Sbackground-color: #FF0000; */
+}
+
+ul {
+  font-family: serif;
+  color: rgb(66, 245, 96);
+}
+
+a {
+  color: #000000;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
