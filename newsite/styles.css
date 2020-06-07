@@ -1,0 +1,10 @@
+/* styles for site */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+h1 {
+  color: pink;
+  text-align: center;
+}
