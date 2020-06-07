@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.firstname {
+  font-style: italic;
+}
+
+.lastname {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.student-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 2px solid rgb(255, 0, 0);
+  margin: 5px;
+  background-color: rgb(219, 203, 202);
+}
