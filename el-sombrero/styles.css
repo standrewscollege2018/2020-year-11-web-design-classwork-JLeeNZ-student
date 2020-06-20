@@ -39,9 +39,10 @@ a:link {
 }
 
 .nav-item {
-  font-size: 30px;
+  font-size: 10px;
   font-weight: bold;
-  text-align: center;
+  /* text-align: center; */
+  margin: auto;
 }
 
 
